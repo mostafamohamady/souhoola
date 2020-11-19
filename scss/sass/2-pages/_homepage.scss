@@ -73,3 +73,30 @@
   }
   
 }
+
+.index{
+    .first-sec{
+        padding: 70px 0;
+        .sec__box{
+            display: flex;
+
+            .icon{
+                
+                svg{
+                    max-width:115px;
+                    height: auto;
+                }
+                
+            }
+            .box__content{
+                padding: 10px 15px 10px 15px;
+                h4{
+                    color:#FFC051 ;
+                }
+                p{
+                   font-weight: bold;
+                }
+            }
+        }
+    }
+}

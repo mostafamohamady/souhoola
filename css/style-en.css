@@ -254,6 +254,33 @@ header .navbar--index .navbar-collapse .navbar-nav .nav-item.active .nav-link::a
   opacity: 1;
 }
 
+.index .first-sec {
+  padding: 70px 0;
+}
+
+.index .first-sec .sec__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.index .first-sec .sec__box .icon svg {
+  max-width: 115px;
+  height: auto;
+}
+
+.index .first-sec .sec__box .box__content {
+  padding: 10px 15px 10px 15px;
+}
+
+.index .first-sec .sec__box .box__content h4 {
+  color: #FFC051;
+}
+
+.index .first-sec .sec__box .box__content p {
+  font-weight: bold;
+}
+
 .corporate .welcome {
   background-color: #fefefe;
   padding-top: 30px;
@@ -524,7 +551,7 @@ footer .footer div {
 
 footer .footer div svg {
   width: 45px;
-  height: 30px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=style-en.css.map */
