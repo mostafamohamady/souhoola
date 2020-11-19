@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style-en.css">
+    <title></title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar--cutom navbar--sec">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.879 84.244">
+                        <g id="Group_641" data-name="Group 641" transform="translate(-39.164 -311.552)">
+                            <path id="Path_822" data-name="Path 822"
+                                d="M49.232,377.789l5.043-5.043a.954.954,0,0,1,1.35,1.35l-2.083,2.082.268.215c21.033,17.284,47.577,27.84,80.568,30.355a148.6,148.6,0,0,0,43.17-3.106c23.313-5.091,41.958-14.7,57.23-27.544.053-.045.11-.088.164-.132l-1.87-1.87a.954.954,0,0,1,1.349-1.35l5.043,5.043a.954.954,0,1,1-1.349,1.35l-2.844-2.844c-16.459,22.209-55.139,40.17-103.3,36.6A133.307,133.307,0,0,1,85.1,401q-20.423-9.536-32.116-24.264l-2.4,2.4a.954.954,0,1,1-1.349-1.35Z"
+                                transform="translate(-2.821 -17.555)" fill="red" />
+                            <g id="Group_607" data-name="Group 607" transform="translate(39.164 311.552)">
+                                <g id="Group_605" data-name="Group 605" transform="translate(102.454 11.23)">
+                                    <g id="Group_604" data-name="Group 604">
+                                        <g id="Group_603" data-name="Group 603">
+                                            <path id="Path_823" data-name="Path 823"
+                                                d="M224.261,331.781a15.308,15.308,0,0,0-18.356-2.455,15.206,15.206,0,1,0,0,26.416,15.225,15.225,0,0,0,18.356-23.961Zm-25.959,22.7a11.948,11.948,0,1,1,0-23.9,11.841,11.841,0,0,1,4.725.935c-.091.087-.183.17-.272.26a15.209,15.209,0,0,0,0,21.505c.089.09.181.174.272.261A11.84,11.84,0,0,1,198.3,354.482Zm8.451-20.4a11.957,11.957,0,0,1,0,16.9c-.275.276-.559.534-.848.777-.289-.243-.572-.5-.848-.777a11.957,11.957,0,0,1,0-16.9q.414-.413.848-.777Q206.339,333.671,206.754,334.084Zm15.205,16.9a11.512,11.512,0,0,1-8.45,3.5,11.84,11.84,0,0,1-4.725-.935c.091-.087.183-.171.273-.261a15.21,15.21,0,0,0,0-21.505c-.09-.09-.182-.173-.273-.26a11.841,11.841,0,0,1,4.725-.935,11.95,11.95,0,0,1,8.45,20.4Z"
+                                                transform="translate(-183.097 -327.328)" fill="red" />
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Group_606" data-name="Group 606">
+                                    <path id="Path_824" data-name="Path 824"
+                                        d="M302.728,354.573a1.493,1.493,0,0,0-1.067-.425h-4.443a10.282,10.282,0,0,1-4.114-.828,10.59,10.59,0,0,1-3.346-2.273,10.9,10.9,0,0,1-2.261-3.363,10.218,10.218,0,0,1-.828-4.086V326.826a1.453,1.453,0,0,0-.448-1.091,1.555,1.555,0,0,0-2.135,0,1.454,1.454,0,0,0-.448,1.091v5.045a18,18,0,0,0-1.62-1.91,16.022,16.022,0,0,0-17.4-3.48,15.547,15.547,0,0,0-5.162,3.48,16,16,0,0,0-3.465,5.146,15.941,15.941,0,0,0,0,12.216,16.344,16.344,0,0,0,3.465,5.176,15.836,15.836,0,0,0,11.253,4.652,15.968,15.968,0,0,0,11.314-4.654,16.492,16.492,0,0,0,2.708-3.612,12.583,12.583,0,0,0,1.034,1.988,13.688,13.688,0,0,0,1.851,2.3,13.445,13.445,0,0,0,9.606,3.976h4.443a1.515,1.515,0,0,0,1.515-1.516A1.414,1.414,0,0,0,302.728,354.573Zm-32.023-.454a12.465,12.465,0,0,1-5.012-1.019,13.365,13.365,0,0,1-4.1-2.761,13,13,0,0,1-2.774-4.1,12.905,12.905,0,0,1,0-10.054,13.022,13.022,0,0,1,2.774-4.1,13.365,13.365,0,0,1,4.1-2.761,12.874,12.874,0,0,1,10.038,0,13.331,13.331,0,0,1,4.113,2.761,13.072,13.072,0,0,1,2.774,4.082,12.948,12.948,0,0,1,0,10.068,13.021,13.021,0,0,1-2.774,4.1,13.3,13.3,0,0,1-4.113,2.76A12.571,12.571,0,0,1,270.7,354.119Z"
+                                        transform="translate(-101.298 -315.508)" fill="#54276c" />
+                                    <path id="Path_825" data-name="Path 825"
+                                        d="M266.91,318.174a3.43,3.43,0,0,0,1.03.706,3.155,3.155,0,0,0,2.531,0,3.4,3.4,0,0,0,1.736-1.736,3.155,3.155,0,0,0,0-2.53,3.409,3.409,0,0,0-1.736-1.737,3.155,3.155,0,0,0-2.531,0,3.41,3.41,0,0,0-1.736,1.737,3.155,3.155,0,0,0,0,2.53A3.435,3.435,0,0,0,266.91,318.174Z"
+                                        transform="translate(-104.517 -311.857)" fill="#54276c" />
+                                    <path id="Path_826" data-name="Path 826"
+                                        d="M278.621,318.174a3.43,3.43,0,0,0,1.03.706,3.155,3.155,0,0,0,2.531,0,3.405,3.405,0,0,0,1.736-1.736,3.155,3.155,0,0,0,0-2.53,3.41,3.41,0,0,0-1.736-1.737,3.155,3.155,0,0,0-2.531,0,3.419,3.419,0,0,0-1.03.707,3.252,3.252,0,0,0,0,4.591Z"
+                                        transform="translate(-107.9 -311.857)" fill="#54276c" />
+                                    <path id="Path_827" data-name="Path 827"
+                                        d="M56.846,338.756,48.77,336.52a9.147,9.147,0,0,1-3.783-2.293,5.074,5.074,0,0,1-1.51-3.666,5.128,5.128,0,0,1,2.078-4.038,8.44,8.44,0,0,1,5.568-1.725,11.472,11.472,0,0,1,4.823,1.039,10.6,10.6,0,0,1,3.568,2.49l2.666-1.686a14.653,14.653,0,0,0-4.587-3.391,14.449,14.449,0,0,0-6.469-1.392,11.168,11.168,0,0,0-7.685,2.568,7.888,7.888,0,0,0-2.9,6.1,7.72,7.72,0,0,0,2.117,5.45,12.425,12.425,0,0,0,5.411,3.333l7.567,2.156a6.682,6.682,0,0,1,3.548,2.1,5.278,5.278,0,0,1,1.274,3.509,5.555,5.555,0,0,1-2.176,4.274q-2.176,1.881-6.489,1.881a12.136,12.136,0,0,1-5.626-1.451,11.149,11.149,0,0,1-4.45-4.116l-2.549,1.607a14.223,14.223,0,0,0,5.077,4.96,14.669,14.669,0,0,0,7.626,1.941q5.372,0,8.469-2.666a8.345,8.345,0,0,0,1.254-11.723A9.735,9.735,0,0,0,56.846,338.756Z"
+                                        transform="translate(-39.164 -314.522)" fill="#54276c" />
+                                    <path id="Path_828" data-name="Path 828"
+                                        d="M86.789,331.5a13.721,13.721,0,1,0,9.7,4.019A13.222,13.222,0,0,0,86.789,331.5Zm7.626,21.348a10.79,10.79,0,1,1,3.156-7.626A10.388,10.388,0,0,1,94.416,352.844Z"
+                                        transform="translate(-48.934 -317.299)" fill="#54276c" />
+                                    <path id="Path_829" data-name="Path 829"
+                                        d="M135.337,332.873h0a1.471,1.471,0,0,0-1.471,1.471v16.6a9.93,9.93,0,0,1-1.882,2.588,9.8,9.8,0,0,1-16.741-6.94V334.344a1.47,1.47,0,1,0-2.941,0V346.6a12.756,12.756,0,0,0,21.564,9.214v2.548h2.941V334.344A1.47,1.47,0,0,0,135.337,332.873Z"
+                                        transform="translate(-60.241 -317.696)" fill="#54276c" />
+                                    <path id="Path_830" data-name="Path 830"
+                                        d="M159.8,330.28a12.308,12.308,0,0,0-8.822,3.529v-7.94a1.47,1.47,0,1,0-2.94,0v30.876h2.94V338.67a9.947,9.947,0,0,1,1.882-2.587,9.8,9.8,0,0,1,16.742,6.94v13.722h2.941V343.022A12.717,12.717,0,0,0,159.8,330.28Z"
+                                        transform="translate(-70.538 -315.254)" fill="#54276c" />
+                                    <path id="Path_831" data-name="Path 831"
+                                        d="M249.537,311.552a1.524,1.524,0,0,1,1.524,1.524V379.6a9.608,9.608,0,0,0,19.166.962,1.542,1.542,0,0,1,2.679-.91,1.572,1.572,0,0,1,.4,1.206,12.675,12.675,0,0,1-25.288-1.258V313.076a1.524,1.524,0,0,1,1.523-1.524Z"
+                                        transform="translate(-99.351 -311.552)" fill="#54276c" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link" href="corprate.html">Corporate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Merchant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customer</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline search-form">
+                        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="btn btn-search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21.783" height="22.219"
+                                viewBox="0 0 21.783 22.219">
+                                <path
+                                    d="M15.285,13.185a8.354,8.354,0,1,0-2.57,2.366l6.161,6.124a1.749,1.749,0,0,0,2.536-2.409c-.021-.022-.041-.043-.064-.064Zm-6.825.571a5.388,5.388,0,1,1,5.386-5.4,5.39,5.39,0,0,1-5.386,5.4Zm0,0"
+                                    transform="translate(-0.109 0)" />
+                            </svg>
+                        </button>
+
+                        <button class="btn btn-lang" type="submit">عربى <img src="imges/Flag_of_Egypt.png"
+                                alt="egy-falg"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- // navbar -->
+    </header>
+    <!--// header -->
+    <!-- corporate -->
+    <div class="corporate">
+        <!-- welcome -->
+        <section class="welcome">
+            <div class="container">
+
+                <div class="welcome__row ">
+                    <div class="welcome__col ">
+                        <img class="img-fluid" src="imges/welcome.png" alt="welcome_img">
+                    </div>
+                    <div class="welcome__col">
+                        <p class="w__souhoola">Welcome to souhoola</p>
+                        <h2 class="h1">We are the best agancy in this field</h2>
+                        <p class="w__brief"> Souhoola is a non-bank consumer finance firm, operating under the umbrella
+                            of CI Capital
+                            Holding. Establishing in 2019, Souhoola's aim is to serv the society around us by providing
+                            seamless, Technology-driven financial solutions. As well as helping our customers. these
+                            solutions work towards further financial and technological inclusion in our society,
+                            improving the quality of life if the customers, and propelling Egypt and all of its citizens
+                            into a future of stability and fruitfulness.' Souhoola is a non-bank consumer finance firm,
+                            operating under the umbrella of CI Capital Holding. Establishing in 2019, Souhoola's aim is
+                            to serv the society around us by providing seamless, Technology-driven financial solutions.
+                            As well as helping our customers. these solutions work towards further financial and
+                            technological inclusion in our society, improving the quality of life if the customers, and
+                            propelling Egypt and all of its citizens into a future of stability and fruitfulness.'</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </section>
+        <!-- // welcome -->
+        <!-- ceo word -->
+        <section class="seo-word">
+            <div class="container">
+                <div class="section-head">
+                    <div class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="59.538" height="51.033"
+                            viewBox="0 0 59.538 51.033">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #fff;
+                                    }
+                                </style>
+                            </defs>
+                            <g transform="translate(0 -29.235)">
+                                <path class="a"
+                                    d="M0,54.751V80.268H25.516V54.751H8.506A17.03,17.03,0,0,1,25.516,37.741V29.235A25.544,25.544,0,0,0,0,54.751Z"
+                                    transform="translate(0 0)" />
+                                <path class="a"
+                                    d="M259.4,37.741V29.235a25.544,25.544,0,0,0-25.516,25.516V80.268H259.4V54.751H242.388A17.03,17.03,0,0,1,259.4,37.741Z"
+                                    transform="translate(-199.86)" />
+                            </g>
+                        </svg>
+                    </div>
+                    <h2 class="h1 section__title mb-0"> CEO WORD </h2>
+                </div>
+                <p class="ceo__text">
+                    Souhoola is a non-bank consumer finance firm, operating under the umbrella of CI Capital Holding.
+                    Establishing in 2019, Souhoola's aim is to serv the society around us by providing seamless,
+                    Technology-driven financial solutions. As well as helping our customers. these solutions work
+                    towards further financial and technological inclusion in our society, improving the quality of life
+                    if the customers, and propelling Egypt and all of its citizens into a future of stability and
+                    fruitfulness.' Souhoola is a non-bank consumer finance firm, operating under the umbrella of CI
+                    Capital Holding. Establishing in 2019, Souhoola's aim is to serv the society around us by providing
+                    seamless, Technology-driven financial solutions. As well as helping our customers. these solutions
+                    work towards further financial and technological inclusion in our society, improving the quality of
+                    life if the customers, and propelling Egypt and all of its citizens into a future of stability and
+                    fruitfulness.'
+                </p>
+                <p class="ceo__signature">
+                    Hazim Madany
+                </p>
+                <div class="ceo__m-v">
+                    <div class="m-v__box">
+                        <h3>Our Mission</h3>
+                        <p>Souhoola is a non-bank consumer finance firm, operating under the umbrella of CI Capital
+                            Holding. Establishing in 2019, Souhoola's aim is to serv the society around us by providing
+                            seamless</p>
+                        <div class="m-v__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="132.41" height="132.41"
+                                viewBox="0 0 132.41 132.41">
+                                <g id="mission" transform="translate(0 0)">
+                                    <circle id="Ellipse_239" data-name="Ellipse 239" cx="61.047" cy="61.047" r="61.047"
+                                        transform="translate(0 10.316)" fill="#e94444" />
+                                    <circle id="Ellipse_240" data-name="Ellipse 240" cx="44.267" cy="44.267" r="44.267"
+                                        transform="translate(16.781 27.096)" fill="#ebebeb" />
+                                    <circle id="Ellipse_241" data-name="Ellipse 241" cx="27.486" cy="27.486" r="27.486"
+                                        transform="translate(33.562 43.877)" fill="#e94444" />
+                                    <circle id="Ellipse_242" data-name="Ellipse 242" cx="10.705" cy="10.705" r="10.705"
+                                        transform="translate(50.343 60.658)" fill="#5a5a5a" />
+                                    <path id="Path_842" data-name="Path 842"
+                                        d="M220.907,39.887c-1.781,0-3.542.081-5.285.23a61.046,61.046,0,0,1,0,121.635c1.742.149,3.5.23,5.285.23a61.047,61.047,0,0,0,0-122.095Z"
+                                        transform="translate(-159.859 -29.571)" fill="#d83131" />
+                                    <g id="Group_619" data-name="Group 619" transform="translate(59.05 0)">
+                                        <path id="Path_843" data-name="Path 843"
+                                            d="M414.119.279,400.727,13.671a2.835,2.835,0,0,0-.825,2.183l.776,12.357,15.778-15.778L415.731.888a.945.945,0,0,0-1.612-.609Z"
+                                            transform="translate(-355.527 0)" fill="#0055a3" />
+                                        <path id="Path_844" data-name="Path 844"
+                                            d="M430.849,50.409,417.457,63.8a2.835,2.835,0,0,1-2.183.825l-12.357-.776L418.7,48.072l11.545.725a.945.945,0,0,1,.609,1.612Z"
+                                            transform="translate(-357.767 -35.64)" fill="#0055a3" />
+                                        <g id="Group_618" data-name="Group 618" transform="translate(0 2.654)">
+                                            <path id="Path_845" data-name="Path 845"
+                                                d="M230.33,80.97a2,2,0,0,1-1.413-3.41l66.711-66.711a2,2,0,0,1,2.825,2.825L231.742,80.385A1.992,1.992,0,0,1,230.33,80.97Z"
+                                                transform="translate(-228.332 -10.264)" fill="#bfbfbf" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="m-v__box">
+                        <h3>Our Vision</h3>
+                        <p>
+                            Souhoola is a non-bank consumer finance firm, operating under the umbrella of CI Capital
+                            Holding. Establishing in 2019, Souhoola's aim is to serv the society around us by providing
+                            seamless
+                        </p>
+                        <div class="m-v__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134">
+                                <g id="vision" transform="translate(0.59 0.59)">
+                                    <g id="Group_621" data-name="Group 621" transform="translate(-0.425 -0.425)">
+                                        <g id="Group_620" data-name="Group 620">
+                                            <circle id="Ellipse_243" data-name="Ellipse 243" cx="67" cy="67" r="67"
+                                                transform="translate(-0.165 -0.165)" fill="#ff9e22" />
+                                        </g>
+                                    </g>
+                                    <path id="Path_846" data-name="Path 846"
+                                        d="M87.279,261.621l59.13,59.13a66.615,66.615,0,0,0,49.54-49.789L180.987,256Z"
+                                        transform="translate(-64.71 -189.59)" fill="#e17726" />
+                                    <path id="Path_847" data-name="Path 847"
+                                        d="M166.078,178.22s-22.149,27.305-49.471,27.305S67.137,178.22,67.137,178.22s22.149-27.305,49.471-27.305S166.078,178.22,166.078,178.22Z"
+                                        transform="translate(-49.801 -111.81)" fill="#eef4ff" />
+                                    <path id="Path_848" data-name="Path 848"
+                                        d="M306.995,178.22s-22.149,27.305-49.471,27.305V150.915C284.846,150.915,306.995,178.22,306.995,178.22Z"
+                                        transform="translate(-190.718 -111.81)" fill="#d6e9f8" />
+                                    <g id="Group_623" data-name="Group 623" transform="translate(41.142 40.744)">
+                                        <g id="Group_622" data-name="Group 622">
+                                            <circle id="Ellipse_244" data-name="Ellipse 244" cx="25.664" cy="25.664"
+                                                r="25.664" transform="translate(0 0)" fill="#804111" />
+                                            <path id="Path_849" data-name="Path 849"
+                                                d="M283.189,182.887a25.664,25.664,0,0,1-25.664,25.664V157.223A25.664,25.664,0,0,1,283.189,182.887Z"
+                                                transform="translate(-231.861 -157.223)" fill="#62320d" />
+                                            <path id="Path_850" data-name="Path 850"
+                                                d="M229.817,210.024a16.14,16.14,0,0,1-31.487,4.994l-.043-9.855a16.14,16.14,0,0,1,31.53,4.86Z"
+                                                transform="translate(-188.015 -184.36)" fill="#464646" />
+                                            <path id="Path_851" data-name="Path 851"
+                                                d="M196.166,237.287a16.175,16.175,0,0,0,.045,9.854l9.832-4.916Z"
+                                                transform="translate(-185.893 -216.483)" fill="#eef4ff" />
+                                            <path id="Path_852" data-name="Path 852"
+                                                d="M273.662,210.024a16.138,16.138,0,0,0-16.137-16.137v32.275A16.138,16.138,0,0,0,273.662,210.024Z"
+                                                transform="translate(-231.861 -184.36)" fill="#2d2d2d" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!--// ceo word -->
+        <!-- our boarrd -->
+        <section class="our-board">
+            <div class="container">
+                <div class="section-head">
+                    <div class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="86.468" height="78.544" viewBox="0 0 86.468 78.544">
+                            <g id="team" transform="translate(0.001 -23.462)">
+                              <g id="Group_625" data-name="Group 625" transform="translate(78.967 75.02)">
+                                <g id="Group_624" data-name="Group 624">
+                                  <path id="Path_853" data-name="Path 853" d="M474.588,333.33l-4.122-4.089a1.689,1.689,0,0,0-2.379,2.4l4.122,4.089a1.689,1.689,0,0,0,2.379-2.4Z" transform="translate(-467.587 -328.751)" fill="#fff"/>
+                                </g>
+                              </g>
+                              <g id="Group_627" data-name="Group 627" transform="translate(74.76 70.832)">
+                                <g id="Group_626" data-name="Group 626">
+                                  <path id="Path_854" data-name="Path 854" d="M445.561,304.446a1.689,1.689,0,0,0-2.389,0l0,0a1.689,1.689,0,1,0,2.392,0Z" transform="translate(-442.675 -303.952)" fill="#fff"/>
+                                </g>
+                              </g>
+                              <g id="Group_629" data-name="Group 629" transform="translate(0 23.462)">
+                                <g id="Group_628" data-name="Group 628" transform="translate(0 0)">
+                                  <path id="Path_855" data-name="Path 855" d="M63.245,79.115,79.631,62.729a6.361,6.361,0,0,0-3.07-10.7,6.367,6.367,0,0,0-4.692-8.955,6.355,6.355,0,0,0-4.958-8.262,6.368,6.368,0,0,0-9.085-7.593l-.163-.175a11.272,11.272,0,0,0-8.225-3.581H36.174a1.689,1.689,0,0,0-1.689,1.689v2.215a7.674,7.674,0,0,0,.437,2.561,6.366,6.366,0,0,0-8.484,7.879,6.365,6.365,0,0,0-4.965,8.263,6.365,6.365,0,0,0-4.688,8.951,6.366,6.366,0,0,0-3.071,10.7l3.37,3.37L.494,85.683a1.689,1.689,0,1,0,2.389,2.389l16.75-16.75a6.362,6.362,0,0,0,9.5-5.792c.086,0,.171.006.257.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.362,6.362,0,0,0,4.923-10.4L58.754,30.7a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653-6,6a1.689,1.689,0,1,0,2.389,2.389l6-6a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653L61.939,49.19a1.689,1.689,0,1,0,2.389,2.389l4.345-4.345A2.987,2.987,0,1,1,72.9,51.458l-2.269,2.269L68.552,55.8a1.689,1.689,0,1,0,2.389,2.389l2.077-2.077a2.987,2.987,0,0,1,4.223,4.226L60.854,76.727a22.883,22.883,0,0,1-15.4,6.708,1.689,1.689,0,0,0-1.135.5L29.183,99.125a1.689,1.689,0,1,0,2.393,2.384L42.71,90.334a15.7,15.7,0,0,0,9.536,2.453L60.96,101.5a1.689,1.689,0,0,0,2.389-2.389l-9.265-9.266a1.69,1.69,0,0,0-1.332-.489l-.536.044a12.33,12.33,0,0,1-7.049-1.534l1.086-1.089A26.246,26.246,0,0,0,63.245,79.115ZM24.891,67.9a2.987,2.987,0,0,1-4.224,0L16.1,63.336a2.987,2.987,0,1,1,4.224-4.224l4.564,4.564A2.991,2.991,0,0,1,24.891,67.9ZM31.5,61.287a2.991,2.991,0,0,1-4.224,0l-4.564-4.564-2.269-2.269a2.987,2.987,0,1,1,4.224-4.224L31.5,57.062h0a2.987,2.987,0,0,1,0,4.224Zm6.613-6.613a2.991,2.991,0,0,1-4.224,0l-8.487-8.487a2.987,2.987,0,0,1,4.223-4.225L33.5,45.829l4.62,4.62h0a2.988,2.988,0,0,1,0,4.224ZM44.73,48.06a2.99,2.99,0,0,1-4.224,0l-8.487-8.487,0,0-1.65-1.65A2.987,2.987,0,0,1,34.59,33.7l10.14,10.14a2.988,2.988,0,0,1,0,4.225Zm.444-8.558-4.64-4.64a7.729,7.729,0,0,0,1.618.172h.037l4.635-.022a1.689,1.689,0,0,0-.008-3.378H46.81l-4.635.022h-.021a4.29,4.29,0,0,1-4.29-4.291V26.84H49.438a7.883,7.883,0,0,1,5.752,2.5l.069.074Z" transform="translate(0 -23.462)" fill="#fff"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                    </div>
+                    <h2 class="h1 section__title mb-0"> OUR BOARD </h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="our__box">
+                            <div>
+                                <img src="imges/Hazim.png" alt="">
+                            </div>
+                            <p class="name">Hazim Madany</p>
+                            <p class="job-title">Managing Director, CI Consumer Finance </p>
+                            <p class="company">(Souhoola)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="our__box">
+
+                            <img src="imges/Mashhour.png" alt="">
+
+                            <p class="name">Mohamed Mashhour</p>
+                            <p class="job-title">Chairman, CI Consumer Finance </p>
+                            <p class="company"> (Souhoola)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--//our board -->
+        <!-- top mangement -->
+        <section class="top-manegment">
+            <div class="container">
+                <div class="section-head">
+                    <div class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="86.468" height="78.544"
+                            viewBox="0 0 86.468 78.544">
+                            <g id="team" transform="translate(0.001 -23.462)">
+                                <g id="Group_625" data-name="Group 625" transform="translate(78.967 75.02)">
+                                    <g id="Group_624" data-name="Group 624">
+                                        <path id="Path_853" data-name="Path 853"
+                                            d="M474.588,333.33l-4.122-4.089a1.689,1.689,0,0,0-2.379,2.4l4.122,4.089a1.689,1.689,0,0,0,2.379-2.4Z"
+                                            transform="translate(-467.587 -328.751)" fill="#fff" />
+                                    </g>
+                                </g>
+                                <g id="Group_627" data-name="Group 627" transform="translate(74.76 70.832)">
+                                    <g id="Group_626" data-name="Group 626">
+                                        <path id="Path_854" data-name="Path 854"
+                                            d="M445.561,304.446a1.689,1.689,0,0,0-2.389,0l0,0a1.689,1.689,0,1,0,2.392,0Z"
+                                            transform="translate(-442.675 -303.952)" fill="#fff" />
+                                    </g>
+                                </g>
+                                <g id="Group_629" data-name="Group 629" transform="translate(0 23.462)">
+                                    <g id="Group_628" data-name="Group 628" transform="translate(0 0)">
+                                        <path id="Path_855" data-name="Path 855"
+                                            d="M63.245,79.115,79.631,62.729a6.361,6.361,0,0,0-3.07-10.7,6.367,6.367,0,0,0-4.692-8.955,6.355,6.355,0,0,0-4.958-8.262,6.368,6.368,0,0,0-9.085-7.593l-.163-.175a11.272,11.272,0,0,0-8.225-3.581H36.174a1.689,1.689,0,0,0-1.689,1.689v2.215a7.674,7.674,0,0,0,.437,2.561,6.366,6.366,0,0,0-8.484,7.879,6.365,6.365,0,0,0-4.965,8.263,6.365,6.365,0,0,0-4.688,8.951,6.366,6.366,0,0,0-3.071,10.7l3.37,3.37L.494,85.683a1.689,1.689,0,1,0,2.389,2.389l16.75-16.75a6.362,6.362,0,0,0,9.5-5.792c.086,0,.171.006.257.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.362,6.362,0,0,0,4.923-10.4L58.754,30.7a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653-6,6a1.689,1.689,0,1,0,2.389,2.389l6-6a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653L61.939,49.19a1.689,1.689,0,1,0,2.389,2.389l4.345-4.345A2.987,2.987,0,1,1,72.9,51.458l-2.269,2.269L68.552,55.8a1.689,1.689,0,1,0,2.389,2.389l2.077-2.077a2.987,2.987,0,0,1,4.223,4.226L60.854,76.727a22.883,22.883,0,0,1-15.4,6.708,1.689,1.689,0,0,0-1.135.5L29.183,99.125a1.689,1.689,0,1,0,2.393,2.384L42.71,90.334a15.7,15.7,0,0,0,9.536,2.453L60.96,101.5a1.689,1.689,0,0,0,2.389-2.389l-9.265-9.266a1.69,1.69,0,0,0-1.332-.489l-.536.044a12.33,12.33,0,0,1-7.049-1.534l1.086-1.089A26.246,26.246,0,0,0,63.245,79.115ZM24.891,67.9a2.987,2.987,0,0,1-4.224,0L16.1,63.336a2.987,2.987,0,1,1,4.224-4.224l4.564,4.564A2.991,2.991,0,0,1,24.891,67.9ZM31.5,61.287a2.991,2.991,0,0,1-4.224,0l-4.564-4.564-2.269-2.269a2.987,2.987,0,1,1,4.224-4.224L31.5,57.062h0a2.987,2.987,0,0,1,0,4.224Zm6.613-6.613a2.991,2.991,0,0,1-4.224,0l-8.487-8.487a2.987,2.987,0,0,1,4.223-4.225L33.5,45.829l4.62,4.62h0a2.988,2.988,0,0,1,0,4.224ZM44.73,48.06a2.99,2.99,0,0,1-4.224,0l-8.487-8.487,0,0-1.65-1.65A2.987,2.987,0,0,1,34.59,33.7l10.14,10.14a2.988,2.988,0,0,1,0,4.225Zm.444-8.558-4.64-4.64a7.729,7.729,0,0,0,1.618.172h.037l4.635-.022a1.689,1.689,0,0,0-.008-3.378H46.81l-4.635.022h-.021a4.29,4.29,0,0,1-4.29-4.291V26.84H49.438a7.883,7.883,0,0,1,5.752,2.5l.069.074Z"
+                                            transform="translate(0 -23.462)" fill="#fff" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h2 class="h1 section__title mb-0"> TOP MANEGMENT </h2>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper-container swiper-container--management">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="top__box">
+                                <div class="img-contain">
+                                    <img src="imges/Hazim.png" alt="">
+                                </div>
+                                <div class="emp-desc">
+                                    <p class="name">Hazim Madany</p>
+                                    <p class="job-title">Chief Operating Officer, CI Consumer Finance (Souhoola) </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="top__box">
+                                <div class="img-contain">
+                                    <img src="imges/Hazim.png" alt="">
+                                </div>
+                                <div class="emp-desc">
+                                    <p class="name">Hazim Madany</p>
+                                    <p class="job-title">Chief Operating Officer, CI Consumer Finance (Souhoola) </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="top__box">
+                                <div class="img-contain">
+                                    <img src="imges/Hazim.png" alt="">
+                                </div>
+                                <div class="emp-desc">
+                                    <p class="name">Hazim Madany</p>
+                                    <p class="job-title">Chief Operating Officer, CI Consumer Finance (Souhoola) </p>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--// top mangement-->
+        <!-- our collaboration -->
+        <section class="our-coll">
+            <div class="container">
+                <div class="section-head">
+                    <div class="circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="86.468" height="78.544"
+                            viewBox="0 0 86.468 78.544">
+                            <g id="team" transform="translate(0.001 -23.462)">
+                                <g id="Group_625" data-name="Group 625" transform="translate(78.967 75.02)">
+                                    <g id="Group_624" data-name="Group 624">
+                                        <path id="Path_853" data-name="Path 853"
+                                            d="M474.588,333.33l-4.122-4.089a1.689,1.689,0,0,0-2.379,2.4l4.122,4.089a1.689,1.689,0,0,0,2.379-2.4Z"
+                                            transform="translate(-467.587 -328.751)" fill="#fff" />
+                                    </g>
+                                </g>
+                                <g id="Group_627" data-name="Group 627" transform="translate(74.76 70.832)">
+                                    <g id="Group_626" data-name="Group 626">
+                                        <path id="Path_854" data-name="Path 854"
+                                            d="M445.561,304.446a1.689,1.689,0,0,0-2.389,0l0,0a1.689,1.689,0,1,0,2.392,0Z"
+                                            transform="translate(-442.675 -303.952)" fill="#fff" />
+                                    </g>
+                                </g>
+                                <g id="Group_629" data-name="Group 629" transform="translate(0 23.462)">
+                                    <g id="Group_628" data-name="Group 628" transform="translate(0 0)">
+                                        <path id="Path_855" data-name="Path 855"
+                                            d="M63.245,79.115,79.631,62.729a6.361,6.361,0,0,0-3.07-10.7,6.367,6.367,0,0,0-4.692-8.955,6.355,6.355,0,0,0-4.958-8.262,6.368,6.368,0,0,0-9.085-7.593l-.163-.175a11.272,11.272,0,0,0-8.225-3.581H36.174a1.689,1.689,0,0,0-1.689,1.689v2.215a7.674,7.674,0,0,0,.437,2.561,6.366,6.366,0,0,0-8.484,7.879,6.365,6.365,0,0,0-4.965,8.263,6.365,6.365,0,0,0-4.688,8.951,6.366,6.366,0,0,0-3.071,10.7l3.37,3.37L.494,85.683a1.689,1.689,0,1,0,2.389,2.389l16.75-16.75a6.362,6.362,0,0,0,9.5-5.792c.086,0,.171.006.257.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.36,6.36,0,0,0,6.365-6.362c0-.086,0-.171-.006-.257.085,0,.169.006.254.006a6.362,6.362,0,0,0,4.923-10.4L58.754,30.7a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653-6,6a1.689,1.689,0,1,0,2.389,2.389l6-6a2.987,2.987,0,1,1,4.224,4.224l-1.653,1.653L61.939,49.19a1.689,1.689,0,1,0,2.389,2.389l4.345-4.345A2.987,2.987,0,1,1,72.9,51.458l-2.269,2.269L68.552,55.8a1.689,1.689,0,1,0,2.389,2.389l2.077-2.077a2.987,2.987,0,0,1,4.223,4.226L60.854,76.727a22.883,22.883,0,0,1-15.4,6.708,1.689,1.689,0,0,0-1.135.5L29.183,99.125a1.689,1.689,0,1,0,2.393,2.384L42.71,90.334a15.7,15.7,0,0,0,9.536,2.453L60.96,101.5a1.689,1.689,0,0,0,2.389-2.389l-9.265-9.266a1.69,1.69,0,0,0-1.332-.489l-.536.044a12.33,12.33,0,0,1-7.049-1.534l1.086-1.089A26.246,26.246,0,0,0,63.245,79.115ZM24.891,67.9a2.987,2.987,0,0,1-4.224,0L16.1,63.336a2.987,2.987,0,1,1,4.224-4.224l4.564,4.564A2.991,2.991,0,0,1,24.891,67.9ZM31.5,61.287a2.991,2.991,0,0,1-4.224,0l-4.564-4.564-2.269-2.269a2.987,2.987,0,1,1,4.224-4.224L31.5,57.062h0a2.987,2.987,0,0,1,0,4.224Zm6.613-6.613a2.991,2.991,0,0,1-4.224,0l-8.487-8.487a2.987,2.987,0,0,1,4.223-4.225L33.5,45.829l4.62,4.62h0a2.988,2.988,0,0,1,0,4.224ZM44.73,48.06a2.99,2.99,0,0,1-4.224,0l-8.487-8.487,0,0-1.65-1.65A2.987,2.987,0,0,1,34.59,33.7l10.14,10.14a2.988,2.988,0,0,1,0,4.225Zm.444-8.558-4.64-4.64a7.729,7.729,0,0,0,1.618.172h.037l4.635-.022a1.689,1.689,0,0,0-.008-3.378H46.81l-4.635.022h-.021a4.29,4.29,0,0,1-4.29-4.291V26.84H49.438a7.883,7.883,0,0,1,5.752,2.5l.069.074Z"
+                                            transform="translate(0 -23.462)" fill="#fff" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h2 class="h1 section__title mb-0"> OUR COLLABORATION</h2>
+                </div>
+                <!-- slider -->
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="swiper-container swiper-container--cutom  swiper-container--coll">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="imges/coll.png" alt=""></div>
+                                <div class="swiper-slide"><img src="imges/coll2.png" alt=""></div>
+
+                            </div>
+                            <!-- Add Arrows -->
+
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right"
+                                class="svg-inline--fa fa-angle-right fa-w-8" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                <path fill="currentColor"
+                                    d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-left"
+                                class="svg-inline--fa fa-angle-left fa-w-8" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                                <path fill="currentColor"
+                                    d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- // slider -->
+
+            </div>
+        </section>
+        <!-- our collaboration -->
+
+
+
+
+    </div>
+    <!-- // corporate -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div>
+                    Copyright &copy; 2020 Souhoola
+                </div>
+                <div>
+                    Designed by Souhoola
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 184.583 77.026">
+                        <g id="Group_640" data-name="Group 640" transform="translate(-39.164 -311.552)">
+                            <path id="Path_822" data-name="Path 822"
+                                d="M49.208,377.333l4.611-4.611a.873.873,0,1,1,1.234,1.234l-1.9,1.9.245.2c19.231,15.8,43.5,25.455,73.665,27.754a135.872,135.872,0,0,0,39.472-2.84c21.315-4.655,38.363-13.438,52.327-25.184.049-.041.1-.08.15-.12l-1.71-1.71a.872.872,0,1,1,1.233-1.234l4.611,4.611a.872.872,0,0,1-1.233,1.234l-2.6-2.6c-15.049,20.307-50.415,36.728-94.451,33.465A121.886,121.886,0,0,1,82,398.557q-18.674-8.719-29.364-22.186l-2.2,2.2a.872.872,0,0,1-1.233-1.234Z"
+                                transform="translate(-3.418 -21.269)" fill="#fff" />
+                            <g id="Group_607" data-name="Group 607" transform="translate(39.164 311.552)">
+                                <g id="Group_605" data-name="Group 605" transform="translate(93.676 10.268)">
+                                    <g id="Group_604" data-name="Group 604">
+                                        <g id="Group_603" data-name="Group 603">
+                                            <path id="Path_823" data-name="Path 823"
+                                                d="M220.735,331.4a14,14,0,0,0-16.783-2.245,13.9,13.9,0,1,0,0,24.153A13.921,13.921,0,0,0,220.735,331.4ZM197,352.155a10.924,10.924,0,1,1,0-21.848,10.826,10.826,0,0,1,4.32.855c-.083.079-.167.156-.249.238a13.906,13.906,0,0,0,0,19.663c.081.082.165.159.249.238A10.826,10.826,0,0,1,197,352.155Zm7.727-18.65a10.933,10.933,0,0,1,0,15.452c-.252.253-.511.488-.775.71-.264-.222-.523-.458-.775-.71a10.933,10.933,0,0,1,0-15.452q.379-.378.775-.71Q204.348,333.128,204.727,333.505Zm13.9,15.452a10.525,10.525,0,0,1-7.726,3.2,10.826,10.826,0,0,1-4.32-.855c.083-.079.167-.156.249-.238a13.907,13.907,0,0,0,0-19.663c-.082-.082-.166-.158-.249-.238a10.826,10.826,0,0,1,4.32-.855,10.926,10.926,0,0,1,7.726,18.65Z"
+                                                transform="translate(-183.097 -327.328)" fill="#fff" />
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Group_606" data-name="Group 606">
+                                    <path id="Path_824" data-name="Path 824"
+                                        d="M298.619,352.063a1.365,1.365,0,0,0-.976-.389h-4.062a9.4,9.4,0,0,1-3.762-.757,9.682,9.682,0,0,1-3.06-2.078,9.969,9.969,0,0,1-2.067-3.075,9.343,9.343,0,0,1-.757-3.736V326.694a1.328,1.328,0,0,0-.41-1,1.422,1.422,0,0,0-1.952,0,1.329,1.329,0,0,0-.41,1v4.613a16.453,16.453,0,0,0-1.481-1.746,14.649,14.649,0,0,0-15.912-3.182,14.215,14.215,0,0,0-4.72,3.182,14.632,14.632,0,0,0-3.168,4.7,14.575,14.575,0,0,0,0,11.169,14.944,14.944,0,0,0,3.168,4.732,14.48,14.48,0,0,0,10.289,4.253,14.6,14.6,0,0,0,10.344-4.255,15.079,15.079,0,0,0,2.476-3.3,11.506,11.506,0,0,0,.946,1.818,12.517,12.517,0,0,0,1.693,2.105,12.293,12.293,0,0,0,8.783,3.635h4.062a1.386,1.386,0,0,0,1.386-1.386A1.293,1.293,0,0,0,298.619,352.063Zm-29.28-.415a11.4,11.4,0,0,1-4.582-.931,12.22,12.22,0,0,1-3.747-2.525,11.883,11.883,0,0,1-2.536-3.746,11.8,11.8,0,0,1,0-9.192,11.906,11.906,0,0,1,2.536-3.746,12.221,12.221,0,0,1,3.748-2.525,11.772,11.772,0,0,1,9.178,0,12.19,12.19,0,0,1,3.761,2.525,11.952,11.952,0,0,1,2.536,3.733,11.839,11.839,0,0,1,0,9.205,11.905,11.905,0,0,1-2.536,3.746,12.159,12.159,0,0,1-3.761,2.524A11.494,11.494,0,0,1,269.34,351.648Z"
+                                        transform="translate(-114.447 -316.346)" fill="#fff" />
+                                    <path id="Path_825" data-name="Path 825"
+                                        d="M266.827,317.7a3.136,3.136,0,0,0,.942.646,2.884,2.884,0,0,0,2.314,0,3.113,3.113,0,0,0,1.587-1.587,2.885,2.885,0,0,0,0-2.314,3.117,3.117,0,0,0-1.587-1.588,2.885,2.885,0,0,0-2.314,0,3.117,3.117,0,0,0-1.587,1.588,2.885,2.885,0,0,0,0,2.314A3.141,3.141,0,0,0,266.827,317.7Z"
+                                        transform="translate(-118.347 -311.922)" fill="#fff" />
+                                    <path id="Path_826" data-name="Path 826"
+                                        d="M278.54,317.7a3.137,3.137,0,0,0,.942.646,2.884,2.884,0,0,0,2.314,0,3.113,3.113,0,0,0,1.587-1.587,2.885,2.885,0,0,0,0-2.314,3.118,3.118,0,0,0-1.587-1.588,2.885,2.885,0,0,0-2.314,0,3.127,3.127,0,0,0-.942.646,2.974,2.974,0,0,0,0,4.2Z"
+                                        transform="translate(-122.446 -311.922)" fill="#fff" />
+                                    <path id="Path_827" data-name="Path 827"
+                                        d="M55.331,337.308l-7.384-2.044a8.363,8.363,0,0,1-3.459-2.1,4.64,4.64,0,0,1-1.38-3.352,4.688,4.688,0,0,1,1.9-3.692,7.717,7.717,0,0,1,5.091-1.578,10.49,10.49,0,0,1,4.409.95,9.7,9.7,0,0,1,3.262,2.277l2.437-1.542a13.4,13.4,0,0,0-4.194-3.1,13.211,13.211,0,0,0-5.915-1.273,10.211,10.211,0,0,0-7.026,2.348,7.212,7.212,0,0,0-2.653,5.574,7.059,7.059,0,0,0,1.936,4.983A11.361,11.361,0,0,0,47.3,337.81l6.919,1.971a6.109,6.109,0,0,1,3.244,1.918,4.826,4.826,0,0,1,1.165,3.209,5.08,5.08,0,0,1-1.99,3.908q-1.99,1.72-5.933,1.72a11.1,11.1,0,0,1-5.144-1.326,10.194,10.194,0,0,1-4.068-3.764l-2.331,1.47a13,13,0,0,0,4.642,4.535,13.413,13.413,0,0,0,6.972,1.775,11.48,11.48,0,0,0,7.744-2.438,7.63,7.63,0,0,0,1.147-10.719A8.9,8.9,0,0,0,55.331,337.308Z"
+                                        transform="translate(-39.164 -315.15)" fill="#fff" />
+                                    <path id="Path_828" data-name="Path 828"
+                                        d="M85.614,331.5a12.546,12.546,0,1,0,8.873,3.675A12.089,12.089,0,0,0,85.614,331.5Zm6.973,19.519a9.866,9.866,0,1,1,2.886-6.972A9.5,9.5,0,0,1,92.587,351.015Z"
+                                        transform="translate(-51.002 -318.516)" fill="#fff" />
+                                    <path id="Path_829" data-name="Path 829"
+                                        d="M133.364,332.873h0a1.345,1.345,0,0,0-1.345,1.345V349.4a9.079,9.079,0,0,1-1.721,2.366,8.962,8.962,0,0,1-15.307-6.346v-11.2a1.344,1.344,0,1,0-2.689,0v11.2a11.663,11.663,0,0,0,19.716,8.424v2.33h2.689V334.218A1.344,1.344,0,0,0,133.364,332.873Z"
+                                        transform="translate(-64.702 -318.997)" fill="#fff" />
+                                    <path id="Path_830" data-name="Path 830"
+                                        d="M158.788,329.776A11.254,11.254,0,0,0,150.722,333v-7.259a1.344,1.344,0,0,0-2.688,0v28.23h2.688V337.448a9.1,9.1,0,0,1,1.721-2.366,8.962,8.962,0,0,1,15.308,6.345v12.547h2.689V341.427a11.627,11.627,0,0,0-11.651-11.651Z"
+                                        transform="translate(-77.178 -316.038)" fill="#fff" />
+                                    <path id="Path_831" data-name="Path 831"
+                                        d="M249.407,311.552a1.393,1.393,0,0,1,1.393,1.393v60.828a8.785,8.785,0,0,0,17.524.88,1.41,1.41,0,0,1,2.45-.832,1.437,1.437,0,0,1,.362,1.1,11.589,11.589,0,0,1-23.121-1.15V312.945a1.393,1.393,0,0,1,1.393-1.393Z"
+                                        transform="translate(-112.088 -311.552)" fill="#fff" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    Powered by CI capital
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- // footer -->
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js">   </script>
+
+
+
+</body>
+
+</html>

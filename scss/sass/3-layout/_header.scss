@@ -1,0 +1,121 @@
+header {
+  .navbar--cutom {
+    height: 75px;
+
+    .navbar-brand {
+      svg {
+        width: 126px;
+        height: 52px;
+      }
+    }
+    .navbar-collapse {
+      justify-content: flex-end;
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #000;
+            padding-left: 25px;
+            padding-right: 30px;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              font-weight: bold;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+          &.active {
+            .nav-link {
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      .search-form {
+        .btn-search {
+          svg {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .btn-lang {
+          margin-inline-start: 25px;
+          background-color: #fff;
+          padding: 1px 7px;
+          img {
+            width: 20px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+  .navbar--sec {
+    background-color: #eeeeee;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 12px 20px -7px rgba(128, 128, 128, 1);
+    box-shadow: 0px 9px 5px -10px #777676;
+    .navbar-collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            &:hover {
+              color: #3e206d;
+            }
+          }
+          &.active {
+            .nav-link {
+              color: #3e206d;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar--index {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    .navbar-collapse {
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #fff;
+            position: relative;
+            &:hover {
+              color: #fff;
+              &::after {
+                content: "";
+                border-bottom: 2px solid #ffc051;
+                position: absolute;
+                bottom: 1px;
+                left: 50%;
+                transform: translate(-50%);
+                width: 30%;
+                transition: all 0.7s ease-in-out;
+
+              }
+            }
+          }
+          &.active {
+            .nav-link {
+              color: #fff;
+
+              &::after {
+                content: "";
+                border-bottom: 2px solid #ffc051;
+                position: absolute;
+                bottom: 1px;
+                left: 50%;
+                transform: translate(-50%);
+                width: 30%;
+               
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

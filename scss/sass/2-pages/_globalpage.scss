@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src: url('../fonts/Tajawal-Regular.ttf');
+}
+@font-face {
+  font-family: 'Segoe-Script';
+  src: url('../fonts/Segoe_Script.woff');
+}
+
+body {
+  font-family: 'Poppins', 'Poppins-Regular', 'Poppins-SemiBold',
+    'Tajawal-Regular','Segoe-Script';
+  background-color: #f2eefa;
+  font-size: 14px;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 0;
+}

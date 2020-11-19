@@ -1,0 +1,22 @@
+.swiper-container--index {
+    border-bottom: 1px solid #FFC051;
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    .over-lay {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: #0000002e;
+    }
+    .slide {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
