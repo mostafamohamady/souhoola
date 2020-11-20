@@ -67,36 +67,111 @@
     background-color: #ffc051;
     opacity: 0.29;
     &.swiper-pagination-bullet-active {
-        background-color: #ffc051;
-        opacity: 1;
-      }
+      background-color: #ffc051;
+      opacity: 1;
+    }
   }
-  
+  .social-icons {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    z-index: 99999;
+    transform: translateY(-50%);
+    .social-icons__list {
+      li {
+        a {
+          padding: 5px;
+          display: block;
+          transition: all 0.3s ease-in-out;
+          svg {
+            width: 20px;
+            height: 20px;
+            path {
+              fill: #f5c166;
+            }
+          }
+          &:hover {
+            padding-inline-start: 8px;
+            transition: all 0.3s ease-in-out;
+
+            svg path {
+              fill: #ffa810;
+
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+  .banner-service {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    z-index: 99999;
+    background-color: #3e206d;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+    .service__list {
+      padding: 20px 0;
+      margin: 0;
+      li {
+        &:not(:last-of-type) {
+          border-bottom: 1px solid #fff;
+        }
+        a {
+          display: block;
+          padding: 5px 10px;
+          text-decoration: none;
+          text-align: center;
+
+          svg {
+            width: 50px;
+            path {
+              transition: all 0.3s ease-in-out;
+            }
+          }
+          p {
+            padding-top: 5px;
+            margin: 0;
+            text-transform: uppercase;
+            color: #ffc051;
+            font-size: 10px;
+          }
+
+          &:hover {
+            svg path {
+              fill: #ffc051;
+              transition: all 0.3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-.index{
-    .first-sec{
-        padding: 70px 0;
-        .sec__box{
-            display: flex;
+.index {
+  .first-sec {
+    padding: 70px 0;
+    .sec__box {
+      display: flex;
 
-            .icon{
-                
-                svg{
-                    max-width:115px;
-                    height: auto;
-                }
-                
-            }
-            .box__content{
-                padding: 10px 15px 10px 15px;
-                h4{
-                    color:#FFC051 ;
-                }
-                p{
-                   font-weight: bold;
-                }
-            }
+      .icon {
+        svg {
+          max-width: 115px;
+          height: auto;
         }
+      }
+      .box__content {
+        padding: 10px 15px 10px 15px;
+        h4 {
+          color: #ffc051;
+        }
+        p {
+          font-weight: bold;
+        }
+      }
     }
+  }
 }

@@ -254,6 +254,93 @@ header .navbar--index .navbar-collapse .navbar-nav .nav-item.active .nav-link::a
   opacity: 1;
 }
 
+.swiper-container--index .social-icons {
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  z-index: 99999;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.swiper-container--index .social-icons .social-icons__list li a {
+  padding: 5px;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-container--index .social-icons .social-icons__list li a svg {
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-container--index .social-icons .social-icons__list li a svg path {
+  fill: #f5c166;
+}
+
+.swiper-container--index .social-icons .social-icons__list li a:hover {
+  -webkit-padding-start: 8px;
+          padding-inline-start: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-container--index .social-icons .social-icons__list li a:hover svg path {
+  fill: #ffa810;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-container--index .banner-service {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  z-index: 99999;
+  background-color: #3e206d;
+  border-top-left-radius: 15px;
+  overflow: hidden;
+}
+
+.swiper-container--index .banner-service .service__list {
+  padding: 20px 0;
+  margin: 0;
+}
+
+.swiper-container--index .banner-service .service__list li:not(:last-of-type) {
+  border-bottom: 1px solid #fff;
+}
+
+.swiper-container--index .banner-service .service__list li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.swiper-container--index .banner-service .service__list li a svg {
+  width: 50px;
+}
+
+.swiper-container--index .banner-service .service__list li a svg path {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-container--index .banner-service .service__list li a p {
+  padding-top: 5px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffc051;
+  font-size: 10px;
+}
+
+.swiper-container--index .banner-service .service__list li a:hover svg path {
+  fill: #ffc051;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .index .first-sec {
   padding: 70px 0;
 }
@@ -274,7 +361,7 @@ header .navbar--index .navbar-collapse .navbar-nav .nav-item.active .nav-link::a
 }
 
 .index .first-sec .sec__box .box__content h4 {
-  color: #FFC051;
+  color: #ffc051;
 }
 
 .index .first-sec .sec__box .box__content p {
