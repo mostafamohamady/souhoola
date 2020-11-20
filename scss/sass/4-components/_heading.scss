@@ -22,3 +22,26 @@
     font-family: "Poppins-SemiBold";
   }
 }
+
+
+@media (max-width: 767.98px) {
+
+
+  .section-head {
+    .circle{
+        width: 40px;
+        height: 40px;
+        padding: 12px;
+      svg{
+        width: 16px;
+        height: 16px;
+      }
+    }
+    .section__title{
+      padding: 10px 0;
+      font-size: 1.4rem;
+
+    }
+    
+  }
+}

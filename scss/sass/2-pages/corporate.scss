@@ -102,7 +102,6 @@
     }
   }
   .top-manegment {
-
     .top__box {
       background-color: #fff;
       padding: 20px 10px;
@@ -119,13 +118,13 @@
       }
       .emp-desc {
         width: 70%;
-        text-align:start;
+        text-align: start;
         font-size: 14px;
         .name {
           margin-top: 5px;
           color: #3e206d;
         }
-        
+
         p {
           margin: 0;
           font-weight: bold;
@@ -156,8 +155,6 @@
       -webkit-align-items: center;
       align-items: center;
     }
-
-
   }
   .our-coll {
     margin-bottom: 80px;
@@ -227,4 +224,55 @@
       }
     }
   }
+}
+
+@media (max-width: 767.98px) {
+  .corporate .welcome .welcome__row {
+    flex-direction: column;
+    .welcome__col {
+      width: 100%;
+    }
+
+    .welcome__col h2 {
+      font-size: 1.2rem;
+    }
+  }
+  .corporate .seo-word .ceo__text {
+    font-size: .8rem;
+  }
+  .corporate .seo-word .ceo__m-v{
+    flex-direction: column;
+    align-items: center;
+      
+      .m-v__box{
+        width: 90%;
+        margin-bottom: 50px;
+        h3{
+          font-size: 1.2rem;
+        }
+        p{
+          font-size: .8rem;
+        }
+        .m-v__icon svg {
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      
+    }
+
+    .corporate .our-board .our__box{
+      margin-bottom: 20px;
+    }
+    .corporate .our-board .our__box .job-title, .corporate .our-board .our__box .company{
+      font-size: .8rem;
+    }
+
+    .corporate .our-coll .swiper-button-next, .corporate .our-coll .swiper-container-rtl .swiper-button-prev{
+      right: -20px;
+    }
+    .corporate .our-coll .swiper-button-prev, .corporate .our-coll .swiper-container-rtl .swiper-button-next{
+      left: -20px;
+    }
 }

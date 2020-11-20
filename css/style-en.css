@@ -65,6 +65,22 @@ ol {
   font-family: "Poppins-SemiBold";
 }
 
+@media (max-width: 767.98px) {
+  .section-head .circle {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+  }
+  .section-head .circle svg {
+    width: 16px;
+    height: 16px;
+  }
+  .section-head .section__title {
+    padding: 10px 0;
+    font-size: 1.4rem;
+  }
+}
+
 header .navbar--cutom {
   height: 75px;
 }
@@ -746,6 +762,59 @@ svg {
 .corporate .our-coll .swiper-button-next:hover svg path,
 .corporate .our-coll .swiper-container-rtl .swiper-button-prev:hover svg path {
   fill: #f2a82a;
+}
+
+@media (max-width: 767.98px) {
+  .corporate .welcome .welcome__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .corporate .welcome .welcome__row .welcome__col {
+    width: 100%;
+  }
+  .corporate .welcome .welcome__row .welcome__col h2 {
+    font-size: 1.2rem;
+  }
+  .corporate .seo-word .ceo__text {
+    font-size: .8rem;
+  }
+  .corporate .seo-word .ceo__m-v {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .corporate .seo-word .ceo__m-v .m-v__box {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .corporate .seo-word .ceo__m-v .m-v__box h3 {
+    font-size: 1.2rem;
+  }
+  .corporate .seo-word .ceo__m-v .m-v__box p {
+    font-size: .8rem;
+  }
+  .corporate .seo-word .ceo__m-v .m-v__box .m-v__icon svg {
+    width: 60px;
+    height: 60px;
+  }
+  .corporate .our-board .our__box {
+    margin-bottom: 20px;
+  }
+  .corporate .our-board .our__box .job-title, .corporate .our-board .our__box .company {
+    font-size: .8rem;
+  }
+  .corporate .our-coll .swiper-button-next, .corporate .our-coll .swiper-container-rtl .swiper-button-prev {
+    right: -20px;
+  }
+  .corporate .our-coll .swiper-button-prev, .corporate .our-coll .swiper-container-rtl .swiper-button-next {
+    left: -20px;
+  }
 }
 
 footer {
