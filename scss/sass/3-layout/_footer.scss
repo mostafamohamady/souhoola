@@ -16,3 +16,16 @@ footer{
     }   
    
 }
+
+@media (max-width: 767.98px) {
+
+    footer .footer{
+        flex-direction: column;
+       text-align: center;
+       div{
+           padding: 5px;
+       }  
+    }
+
+
+}

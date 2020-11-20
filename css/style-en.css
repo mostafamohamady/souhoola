@@ -36,6 +36,12 @@ ol {
   padding-right: 0;
 }
 
+@media (max-width: 991.98px) {
+  body {
+    font-size: 12px;
+  }
+}
+
 .section-head {
   padding: 20px 0 0 0;
 }
@@ -170,6 +176,59 @@ header .navbar--index .navbar-collapse .navbar-nav .nav-item.active .nav-link::a
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   width: 30%;
+}
+
+@media (max-width: 991.98px) {
+  header .navbar--cutom .navbar-brand svg {
+    width: 90px;
+  }
+  header .navbar .navbar-toggler {
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 0;
+  }
+  header .navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+  }
+  header .navbar .navbar-toggler .navbar-toggler-icon:not(:last-of-type) {
+    margin-bottom: 0.3rem;
+  }
+  header .navbar .navbar-collapse {
+    background-color: #3e206db3;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item.active .nav-link::after {
+    width: 100% !important;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100% !important;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+  header .navbar .form-inline {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .navbar .form-inline .btn-search {
+    margin-left: 25px;
+  }
+  header .navbar--sec .navbar-toggler {
+    border: 2px solid #3e206d;
+    outline: none;
+  }
+  header .navbar--sec .navbar-toggler .navbar-toggler-icon {
+    background-color: #3e206d;
+  }
+  header .navbar--sec .navbar-collapse {
+    background-color: #eeeeee;
+  }
 }
 
 .swiper-container--index {
@@ -366,6 +425,77 @@ header .navbar--index .navbar-collapse .navbar-nav .nav-item.active .nav-link::a
 
 .index .first-sec .sec__box .box__content p {
   font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+  .swiper-container--index .swiper-slide .banner-content .content__text h2 {
+    font-size: 1.2rem;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__text h5 {
+    font-size: 1rem;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__text .start {
+    font-size: 0.7rem;
+  }
+  .swiper-container--index
+.swiper-slide
+.banner-content
+.content__text
+.start
+svg {
+    width: 12px;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__logo {
+    text-align: center;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__logo svg {
+    width: 65%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .swiper-container--index {
+    height: 300px;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__text h2 {
+    font-size: 0.7rem;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__text h5 {
+    font-size: 0.6rem;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__text .start {
+    font-size: 0.5rem;
+  }
+  .swiper-container--index
+.swiper-slide
+.banner-content
+.content__text
+.start
+svg {
+    width: 12px;
+  }
+  .swiper-container--index .swiper-slide .banner-content .content__logo svg {
+    width: 65%;
+  }
+  .swiper-container--index .banner-service .service__list {
+    display: none;
+  }
+  .swiper-container--index .social-icons .social-icons__list li a {
+    padding: 3px;
+  }
+  .swiper-container--index .social-icons .social-icons__list li a svg {
+    width: 15px;
+    height: 15px;
+  }
+  .index .first-sec .sec__box .icon svg {
+    max-width: 80px;
+  }
+  .index .first-sec .sec__box .box__content h4 {
+    font-size: 1rem;
+  }
+  .index .first-sec .sec__box .box__content p {
+    font-size: .7rem;
+  }
 }
 
 .corporate .welcome {
@@ -639,6 +769,19 @@ footer .footer div {
 footer .footer div svg {
   width: 45px;
   height: 20px;
+}
+
+@media (max-width: 767.98px) {
+  footer .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer .footer div {
+    padding: 5px;
+  }
 }
 
 /*# sourceMappingURL=style-en.css.map */
